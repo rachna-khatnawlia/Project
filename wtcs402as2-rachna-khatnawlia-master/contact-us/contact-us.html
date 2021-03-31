@@ -1,0 +1,244 @@
+<htm1>
+
+	<head>
+		<title>Hotel Contact-us</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+		<style>
+			.banner {
+				background-image: url(bg-4.jpg);
+				height: 600px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin-bottom: 50px;
+			}
+
+			.logo {
+				background-image: url(logo.png);
+				width: 100px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 70px;
+				margin-right: 10px;
+			}
+
+			.trans ul li {
+				float: left;
+				height: 80px;
+				padding-right: 25px;
+				padding-top: 15px;
+				font-size: 18px;
+			}
+
+			.trans {
+				background: rgb(0, 0, 0);
+				/* Fallback color */
+				background: rgba(0, 0, 0, 0.5);
+				/* Black background with 0.5 opacity */
+				color: #f1f1f1;
+			}
+
+
+			.hometext {
+				font-size: 17px;
+				margin-top: 19px;
+				color: yellow;
+				font-weight: bold;
+
+			}
+
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				min-width: 120px;
+			}
+
+			.hometext:hover .dropdown-content {
+				display: block;
+				min-width: 120px;
+				line-height: 35px;
+			}
+
+			p {
+				color: grey;
+				line-height: 25px;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 0.5px;
+				margin-left: 15px;
+			}
+
+			h3 {
+				font-weight: bold;
+				letter-spacing: 1px;
+				margin-left: 20px;
+
+			}
+
+			input {
+				width: 100%;
+				height: 42px;
+				font-size: 18px;
+				font-weight: bold;
+				margin: 12px;
+				letter-spacing: 1px;
+				background-color: whitesmoke;
+				border-radius: 5px;
+			}
+
+			select {
+				width: 100%;
+				height: 42px;
+				font-size: 18px;
+				font-weight: bold;
+				margin: 12px;
+				letter-spacing: 1px;
+				background-color: whitesmoke;
+				border-radius: 5px;
+				color: grey;
+			}
+
+			button {
+				width: 100%;
+				height: 42px;
+				font-size: 18px;
+				font-weight: bold;
+				margin: 12px;
+				letter-spacing: 1px;
+				background-color: darksalmon;
+				border-radius: 5px;
+				color: grey;
+				border: 2px solid purple;
+			}
+
+			.height {
+				height: 175px;
+				box-sizing: border-box;
+			}
+
+
+
+			.footertext {
+				background-color: grey;
+				font-size: 17px;
+				font-weight: bold;
+				line-height: 30px;
+			}
+
+			.footertext li:hover {
+				color: e98b35;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="banner">
+			<div class="container-fluid">
+				<div class="row trans">
+					<ul type="none">
+						<li class="logo"></li>
+						<li style="margin-right:450px;">
+							<h2>Meenakshi RESORT</h2>
+						</li>
+						<li class="hometext"><a
+								href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\Assignment2.html">Home</a>
+						</li>
+						<li class="hometext"><a
+								href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\room\room.html">Rooms</a>
+							<div class="dropdown-content">
+								<a
+									href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\room1\room1.html">Room-1</a><br>
+								<a
+									href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\room2\room2.html">Room-2</a><br>
+								<a
+									href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\room3\room3.html">Room-3</a><br>
+								<a
+									href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\room4\room4.html">Room-4</a><br>
+							</div>
+						</li>
+						<li class="hometext"><a
+								href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\contact-us\contact-us.html">Contact
+								Us </a>
+						<li>
+						<li class="hometext"><a
+								href="F:\btech\cse btech\4th sem\wt lab\assignments\wtcs402as2-rachna-khatnawlia-master\aboutus\hotel_about_us.html">About
+								us</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 get_in_touch">
+					<h2><b>GET IN <span style="color:#e98b35;">TOUCH</span><br></b></h2>
+				</div>
+				<div class="col-sm-6"></div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<!--form-->
+				<div class="col-sm-6">
+					<input type="text" placeholder="NAME.."><br>
+					<input type="email" placeholder="E-MAIL.."><br>
+					<input type="number" placeholder="CONTACT NUMBER.."><br>
+					<input type="text" placeholder="Some Text.." class="height">
+					<select name="Select Package">
+						<option value="--Select Package--">--Select Package--</option>
+						<option value="Day Package">Day Package</option>
+						<option value="Overnight stay Package">Overnight Stay Package</option>
+					</select>
+					<button>Submit</button>
+				</div>
+				<div class="col-sm-6">
+					<h3>CONTACT INFO</h3>
+					<p>Have any Queries? Let us know. We will clear it for you at the best.</p>
+					<h3>OFFICE</h3>
+					<p>Meenakshi Resort 67, Nanjapura Village Jigani Hobli Link Road, Anekal Taluk, Bengaluru, Karnataka
+						560105</p>
+					<h3>E-MAIL</h3>
+					<p>
+						bookings@themeenakshiresort.in</p>
+					<h3>PHONE</h3>
+					<p>
+						+91 98806 41105</p>
+				</div>
+			</div>
+		</div><br><br><br>
+
+		<!--footer-->
+		<div class="container-fluid">
+			<div class="row footertext">
+				<div class="col-sm-4" style="padding-left:150px"><img src="logo.png" height="125px" width="175px"> <br>
+					67, Nanjapura Village<br> Jigani Hobli Link Road,<br> Anekal Taluk, Bengaluru,<br> Karnataka<br>
+					Tel: +91 7551155113</div>
+				<div class="col-sm-4"><br><br><br>
+					<ul><span style="border-bottom:1px solid e98b35;">EXTRA LINKS</span>
+						<li> Home</li>
+						<li> Day Out</li>
+						<li> Over Night</li>
+				</div>
+				<div class="col-sm-4" style="padding-right:120px"><br><br><br>
+					<ul><span style="border-bottom:1px solid e98b35;">EXTRA LINKS</span>
+						<li>Activities</li>
+						<li>Gallery</li>
+						<li>About us</li>
+						<li>Contact us</li>
+				</div>
+				<br><br><br><br><br><br><br><br><br><br><br>
+				<div
+					style="color:White; font-size:14px; background-color:#65676b; height:45px; font-size:16px; padding-top:10px;">
+					<center>© Copyright @ TheMeenakshi resort - Designed &amp; Marketed by<a href=""> Stepoutside</a>
+					</center>
+				</div>
+			</div>
+
+
+	</body>
+
+	</html>
